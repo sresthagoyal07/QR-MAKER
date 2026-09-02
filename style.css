@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:cornsilk;
+}
+
+.navSection{
+    background-color:brown;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.projectName{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.inputSection{
+    display: flex;
+    justify-content: center;
+    background-color:chocolate;
+    height: 300px;
+    border: dashed 6px cornsilk;
+    border-radius: 25px;
+    align-items: center;
+    margin: 100px;
+}
+
+.inputurl{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.generateBtn{
+    width: 150px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    background-color:brown;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.qrSection{
+    display: flex;
+    justify-content: center;
+    background-color:chocolate;
+    border-radius: 10px;
+    height: 400px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.downloadSection{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: 100px;
+    align-items: center;
+}
+
+.downloadBtn{
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color:brown;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footerSection{
+    background-color:brown;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer1{
+    color: white;
+    font-size: 30px;
+}
+
+.footer2{
+    color: white;
+    font-size: 20px;
+}
