@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         generateButton.disabled = true;
 
         try {
-            const response = await fetch("http://127.0.0.1:8000/generate-qr", {
+            const response = await fetch("https://srava-qr.onrender.com/", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
